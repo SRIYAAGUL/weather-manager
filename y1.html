@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="yz.css">
+    <script src="y3.js"></script>
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <div class="card p-4 shadow-lg">
+            <h1 class="mb-4">WEATHER MANAGER</h1>
+            <input type="text" class=" container form-control mb-3 " id="city-input" placeholder="Enter City Here">
+            <button class=" container btn btn-primary" onclick="searchCity()">Search</button>
+            <div class="mt-4">
+                <h2 id="city-name">------</h2>
+                <h3 id="weather-type">--------</h3>
+                <div>
+                    <h4>Temp: <span id="temp"></span>°F</h4>
+                    <h4>Min Temp: <span id="min-temp"></span>°F</h4>
+                    <h4>Max Temp: <span id="max-temp"></span>°F</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
